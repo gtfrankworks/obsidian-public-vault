@@ -1,4 +1,9 @@
 [
   "obsidian-git",
-  "templater-obsidian"
+  "dataview",
+  "juggl",
+  "quickadd",
+  "templater-obsidian",
+  "calendar",
+  "obsidian-quiet-outline"
 ]
