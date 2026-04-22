@@ -10,5 +10,7 @@
   "obsidian-excalidraw-plugin",
   "claudian",
   "find-and-replace-in-selection",
-  "extended-graph"
+  "extended-graph",
+  "contribution-graph",
+  "excalidraw-cn"
 ]

@@ -336,5 +336,47 @@
       }
     },
     "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/00-教程导读.md": {
+    "scroll": 33.64990234375,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/01-OpenClaw是什么.md": {
+    "scroll": 10.535481770833334,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/02-本地安装OpenClaw.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
