@@ -226,7 +226,49 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/OpenClaw/00-OpenClaw 教程导读.md": {
-    "scroll": 16.027827116637063,
+    "scroll": 16.292403100775193,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 26
+      },
+      "to": {
+        "line": 28,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/番外 | OpenClaw 创始人的故事.md": {
+    "scroll": 132.63097343412946,
+    "cursor": {
+      "from": {
+        "line": 141,
+        "ch": 0
+      },
+      "to": {
+        "line": 141,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/云端部署 OpenClaw.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 96,
+        "ch": 0
+      },
+      "to": {
+        "line": 96,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/01-第一章 OpenClaw 是什么.md": {
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -234,6 +276,48 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/OpenClaw 一站式部署平台大全.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 286,
+        "ch": 0
+      },
+      "to": {
+        "line": 286,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/OpenClaw 接入 QQ 和飞书.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/OpenClaw 安全指南.md": {
+    "scroll": 93.9308527131783,
+    "cursor": {
+      "from": {
+        "line": 107,
+        "ch": 0
+      },
+      "to": {
+        "line": 107,
         "ch": 0
       }
     },
