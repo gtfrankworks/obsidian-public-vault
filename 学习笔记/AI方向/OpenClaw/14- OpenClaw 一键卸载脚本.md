@@ -123,6 +123,6 @@ curl -fsSL https://clawfather.cn/uninstall.sh | bash
 祝大家养虾愉快，卸虾也愉快！
 
 > 相关阅读：
-> - 上一章：[[09-第九章 OpenClaw 记忆管理与成本控制]]
+> - 上一章：[[12- OpenClaw 记忆管理与成本控制]]
 > - 回到目录：[[00-OpenClaw 教程导读]]
 

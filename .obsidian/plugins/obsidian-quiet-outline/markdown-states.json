@@ -198,7 +198,7 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/OpenClaw/10-第十章 OpenClaw 一键卸载脚本.md": {
-    "scroll": 106.1171875,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -212,7 +212,7 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/OpenClaw/09-第九章 OpenClaw 记忆管理与成本控制.md": {
-    "scroll": 166.8411826951094,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -310,7 +310,7 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/OpenClaw/OpenClaw 安全指南.md": {
-    "scroll": 93.9308527131783,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 107,
@@ -318,6 +318,20 @@
       },
       "to": {
         "line": 107,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/11- OpenClaw 定时任务与自动化.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
