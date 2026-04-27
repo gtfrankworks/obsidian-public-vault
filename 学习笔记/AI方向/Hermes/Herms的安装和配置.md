@@ -54,11 +54,49 @@
 4. 这是需要填入
 	1. url：http://host.docker.internal:8642/v1
 	2. apikey：my-local-key
-5. 
-6. 这里有点时候重启
-	1. **问题：Hermes 无法连接 DeepSeek API**
+5. 然后回到界面就看到我们的hermes-agent了
+![[Pasted image 20260427140609.png]]
 
-**根本原因：** 终端 shell 环境变量中设置了失效的代理
+## 3. 下次起启动步骤
+### 第一步：启动 Docker Desktop
+	打开 Docker Desktop 应用，等图标稳定。
+
+### 第二步：启动 Open WebUI
+
+```bash
+docker start open-webui
+```
+### 第三步：启动 Hermes Gateway（新开一个终端窗口）
+
+
+```bash
+hermes gateway run
+```
+
+### 第四步：打开浏览器
+
+👉 [http://localhost:3000](http://localhost:3000)
+
+选择 `hermes-agent` 模型开始聊天 🎉
+
+---
+
+### 关闭时：
+
+
+```bash
+# 停止 Gateway
+Ctrl+C
+
+# 停止 Open WebUI（可选）
+docker stop open-webui
+```
+
+## 5. 在安装过程关于代理会出现的问题
+### 1. 这里有点时候重启
+	1. 问题：Hermes 无法连接 DeepSeek API
+
+    根本原因 终端 shell 环境变量中设置了失效的代理
 
 ```
 HTTP_PROXY=http://127.0.0.1:7980
@@ -67,15 +105,13 @@ HTTPS_PROXY=http://127.0.0.1:7980
 
 这是之前为了让终端能下载 Hermes 安装包，手动在 `~/.zshrc` 或 `~/.bash_profile` 里添加的代理配置。代理软件关闭后端口 7980 不再监听，但环境变量还在，导致所有网络请求都被转发到一个不存在的地址而失败。
 
-**排查过程：**
+### 2. **排查过程：**
 
-1. 以为是 VPN 全局模式问题 → 关了全局模式无效
-2. 检查系统代理（`networksetup`）→ 关掉 HTTP/HTTPS/SOCKS 代理无效
-3. 检查 `env | grep -i proxy` → **找到根本原因**，环境变量里有失效代理
+3. 以为是 VPN 全局模式问题 → 关了全局模式无效
+4. 检查系统代理（`networksetup`）→ 关掉 HTTP/HTTPS/SOCKS 代理无效
+5. 检查 `env | grep -i proxy` → **找到根本原因**，环境变量里有失效代理
 
-**解决方法：**
-
-bash
+解决方法
 
 ```bash
 # 临时清除（当前终端生效）
