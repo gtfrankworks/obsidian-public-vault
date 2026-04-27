@@ -30,6 +30,25 @@
 3. 再次进入管理员设置
 	1. ![[Pasted image 20260427130038.png]]
 	2. 点击外部连接吗，然后按图显示添加
-	
-		1.![[Pasted image 20260427130234.png]]
-	1. 添加添加din
+		![[Pasted image 20260427130234.png]]
+	3.  在添加以前先打开mac的终端
+		1. 执行命令
+```
+			1. echo 'API_SERVER_ENABLED=true' >> ~/.hermes/.env
+			   echo 'API_SERVER_KEY=my-local-key' >> ~/.hermes/.env
+```
+		  2.启动网关
+```
+				1. hermes gateway run
+```
+		  3 . 打开新终端
+```
+				
+				curl http://localhost:8642/v1/health
+```
+		 4. 返回结果
+```
+				1. 返回 `{"status": "ok"}`
+```
+![[Pasted image 20260427132200.png]]
+4. 
