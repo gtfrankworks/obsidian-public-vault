@@ -51,4 +51,35 @@
 				1. 返回 `{"status": "ok"}`
 ```
 ![[Pasted image 20260427132200.png]]
-4. 
+4. 这里有点时候重启
+	1. **问题：Hermes 无法连接 DeepSeek API**
+
+**根本原因：** 终端 shell 环境变量中设置了失效的代理
+
+```
+HTTP_PROXY=http://127.0.0.1:7980
+HTTPS_PROXY=http://127.0.0.1:7980
+```
+
+这是之前为了让终端能下载 Hermes 安装包，手动在 `~/.zshrc` 或 `~/.bash_profile` 里添加的代理配置。代理软件关闭后端口 7980 不再监听，但环境变量还在，导致所有网络请求都被转发到一个不存在的地址而失败。
+
+**排查过程：**
+
+1. 以为是 VPN 全局模式问题 → 关了全局模式无效
+2. 检查系统代理（`networksetup`）→ 关掉 HTTP/HTTPS/SOCKS 代理无效
+3. 检查 `env | grep -i proxy` → **找到根本原因**，环境变量里有失效代理
+
+**解决方法：**
+
+bash
+
+```bash
+# 临时清除（当前终端生效）
+unset HTTP_PROXY HTTPS_PROXY http_proxy https_proxy
+
+# 永久修复（删除配置文件里的代理设置）
+grep -i proxy ~/.zshrc ~/.bash_profile ~/.profile
+# 找到后删除对应行
+```
+
+**教训：** 代理端口失效后要及时清理 shell 配置文件里的代理环境变量，否则所有网络工具都会受影响。
