@@ -23,5 +23,8 @@
 		 ![[Pasted image 20260427114026.png]]
 	 3. 直接登录
 		 1. ![[Pasted image 20260427114058.png]]
- ### 3. 配置hermes
- 
+### 3. 配置hermes
+ 1. 打开http://localhost:3000/
+ 2. 进入设置界面
+		![[Pasted image 20260427114639.png]]
+3. 
