@@ -51,7 +51,11 @@
 				1. 返回 `{"status": "ok"}`
 ```
 ![[Pasted image 20260427132200.png]]
-4. 这里有点时候重启
+4. 这是需要填入
+	1. url：http://host.docker.internal:8642/v1
+	2. apikey：my-local-key
+5. 
+6. 这里有点时候重启
 	1. **问题：Hermes 无法连接 DeepSeek API**
 
 **根本原因：** 终端 shell 环境变量中设置了失效的代理
