@@ -436,7 +436,7 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/Hermes/05-高级特性.md": {
-    "scroll": 199.4404761904762,
+    "scroll": 303.4954427083333,
     "cursor": {
       "from": {
         "line": 0,
@@ -450,7 +450,7 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/Hermes/06-安全与隐私.md": {
-    "scroll": 70.41093429158111,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -478,7 +478,7 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/Hermes/01-快速开始.md": {
-    "scroll": 0.043555192595617256,
+    "scroll": 135.22061011904762,
     "cursor": {
       "from": {
         "line": 0,
@@ -493,6 +493,34 @@
   },
   "学习笔记/AI方向/Hermes/02-核心架构.md": {
     "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/Hermes/03-配置详解.md": {
+    "scroll": 341.4911731563791,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/Hermes/04-消息平台集成.md": {
+    "scroll": 312.9683779761905,
     "cursor": {
       "from": {
         "line": 0,
