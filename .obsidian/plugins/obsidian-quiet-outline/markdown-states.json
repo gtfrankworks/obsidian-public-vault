@@ -366,7 +366,7 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/OpenClaw/02-本地安装OpenClaw.md": {
-    "scroll": 308.93993466424683,
+    "scroll": 307.8307291666667,
     "cursor": {
       "from": {
         "line": 0,
@@ -394,7 +394,7 @@
     "expandedKeys": []
   },
   "学习笔记/AI方向/Hermes/Hermes安装出现的问题及其解决办法.md": {
-    "scroll": 108.89285714285714,
+    "scroll": 108.9047619047619,
     "cursor": {
       "from": {
         "line": 126,
@@ -416,6 +416,20 @@
       },
       "to": {
         "line": 84,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习笔记/AI方向/OpenClaw/03-云端部署OpenClaw.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
