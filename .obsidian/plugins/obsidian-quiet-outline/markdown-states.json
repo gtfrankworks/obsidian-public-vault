@@ -560,5 +560,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "raw/Karpathy 的 LLM Wiki 火了，我改造了一下，比原版好用十倍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
